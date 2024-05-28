@@ -6,7 +6,7 @@
 \alias{listerdata_four_columns}
 \title{Lister data}
 \format{
-\code{listerdata} is a \code{data.frame} with 3.525 rows and the following two
+\code{listerdata} is a \code{data.frame} with 3,525 rows and the following two
 columns:
 \describe{
   \item{Col0_Counts}{Degree of methylation of the i-th cytosine in reference
@@ -17,11 +17,11 @@ columns:
 Thus, each row describes a 2x2 table:
 \tabular{rcc}{
   AT1G01070.1  \tab This cytosine  \tab All other cytosines\cr
-  Col0 counts  \tab \eqn{X_{i, 1}} \tab 34244 - \eqn{X_{i, 1}}\cr
-  Met13 counts \tab \eqn{X_{i, 2}} \tab 39342 - \eqn{X_{i, 2}}
+  Col0 counts  \tab \eqn{X_{i, 1}} \tab 34,244 - \eqn{X_{i, 1}}\cr
+  Met13 counts \tab \eqn{X_{i, 2}} \tab 39,342 - \eqn{X_{i, 2}}
 }
 
-\code{listerdata_four_columns} is a \code{data.frame} with 3.525 rows and the
+\code{listerdata_four_columns} is a \code{data.frame} with 3,525 rows and the
 following four columns:
 \describe{
   \item{Col0_Counts.ThisCyto}{Degree of methylation of the i-th cytosine in
@@ -46,7 +46,7 @@ data("listerdata_four_columns")
 }
 \description{
 This dataset has been analyzed and provided by the listed reference. There
-are around 22.000 cytosines, each of which is under two conditions. For each
+are around 22,000 cytosines, each of which is under two conditions. For each
 cytosine under each condition, there is only one replicate. The discrete
 count for each replicate can be modeled by binomial distribution, and
 Fisher's exact test can be applied to assess if a cytosine is differentially

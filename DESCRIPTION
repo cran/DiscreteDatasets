@@ -1,8 +1,8 @@
 Package: DiscreteDatasets
 Type: Package
 Title: Example Data Sets for Use with Discrete Statistical Tests
-Version: 0.1.0
-Date: 2024-03-01
+Version: 0.1.1
+Date: 2024-05-28
 Authors@R: c(
   person("Christina", "Kihn", role = "aut"),
   person("Sebastian", "Döhler", role = "aut"),
@@ -20,9 +20,9 @@ URL: https://github.com/DISOhda/DiscreteDatasets
 BugReports: https://github.com/DISOhda/DiscreteDatasets/issues
 RoxygenNote: 7.3.1
 NeedsCompilation: no
-Packaged: 2024-03-01 20:46:56 UTC; Florian
+Packaged: 2024-05-28 10:31:31 UTC; Florian Junge
 Author: Christina Kihn [aut],
   Sebastian Döhler [aut],
   Florian Junge [cre, aut]
 Repository: CRAN
-Date/Publication: 2024-03-05 10:50:06 UTC
+Date/Publication: 2024-05-28 12:00:02 UTC

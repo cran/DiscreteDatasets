@@ -10,13 +10,13 @@
 #' data("airway")
 #'
 #' @format
-#' \code{airway} is a \code{data.frame} with 63.677 rows and 8 columns. Each row
+#' \code{airway} is a \code{data.frame} with 63,677 rows and 8 columns. Each row
 #' corresponds to a specific gene and each column to a labeled sample.
 #'
 #' @details
 #' The cell lines of the even-numbered samples were treated with dexamethasone,
 #' whereas the cell lines of the odd-numbered samples were not. There were
-#' 89.561.179 reads for all treated samples and 85.955.244 for the untreated
+#' 89,561,179 reads for all treated samples and 85,955,244 for the untreated
 #' ones.
 #'
 #' @source
@@ -46,7 +46,7 @@
 #' @usage data("airway_treat")
 #'
 #' @format
-#' \code{airway_treat} is a \code{data.frame} with 63.677 rows representing
+#' \code{airway_treat} is a \code{data.frame} with 63,677 rows representing
 #' genes with the following two columns:
 #' \describe{
 #'   \item{Treatment}{Number of reads for the specific gene in all treated
@@ -57,8 +57,8 @@
 #' Thus, each line describes a 2x2 table, e.g.:
 #' \tabular{rcc}{
 #'   ENSG00000000003 \tab This gene      \tab All other genes\cr
-#'   Treatment       \tab \eqn{X_{i, 1}} \tab 89561179 - \eqn{X_{i, 1}}\cr
-#'   No Treatment    \tab \eqn{X_{i, 2}} \tab 85955244 - \eqn{X_{i, 2}}
+#'   Treatment       \tab \eqn{X_{i, 1}} \tab 89,561,179 - \eqn{X_{i, 1}}\cr
+#'   No Treatment    \tab \eqn{X_{i, 2}} \tab 85,955,244 - \eqn{X_{i, 2}}
 #' }
 "airway_treat"
 
@@ -67,7 +67,7 @@
 #' @usage data("airway_four_columns")
 #'
 #' @format
-#' \code{airway_four_columns} is a \code{data.frame} with 63.677 rows
+#' \code{airway_four_columns} is a \code{data.frame} with 63,677 rows
 #' representing genes with the following four columns:
 #' \describe{
 #'   \item{Treatment.ThisGene}{Number of reads for the specific gene in all

@@ -5,15 +5,15 @@
 #' @docType data
 #'
 #' @description
-#' For each of 2.446 drugs in the MHRA database (column 1), the number of cases
+#' For each of 2,446 drugs in the MHRA database (column 1), the number of cases
 #' with amnesia as an adverse event (column 2), and the number of cases with
-#' other adverse event for this drug (column 3). In total, 684.652 adverse drug
-#' reactions were reported, among them 2.044 cases of amnesia.
+#' other adverse event for this drug (column 3). In total, 684,652 adverse drug
+#' reactions were reported, among them 2,044 cases of amnesia.
 #'
 #' @usage data("amnesia")
 #'
 #' @format
-#' \code{amnesia} is a \code{data.frame} with 2.446 rows representing drugs
+#' \code{amnesia} is a \code{data.frame} with 2,446 rows representing drugs
 #' with the following two columns:
 #' \describe{
 #'   \item{AmnesiaCases}{Number of the amnesia cases reported for the drug.}
@@ -23,8 +23,8 @@
 #' Thus, each line describes a 2x2 table, e.g.:
 #' \tabular{rcc}{
 #'   1-ANDROSTENEDIOL    \tab This drug      \tab All other drugs\cr
-#'   Amnesia cases       \tab \eqn{X_{i, 1}} \tab 2044   - \eqn{X_{i, 1}}\cr
-#'   Other adverse cases \tab \eqn{X_{i, 2}} \tab 682648 - \eqn{X_{i, 2}}
+#'   Amnesia cases       \tab \eqn{X_{i, 1}} \tab 2,044   - \eqn{X_{i, 1}}\cr
+#'   Other adverse cases \tab \eqn{X_{i, 2}} \tab 682,648 - \eqn{X_{i, 2}}
 #' }
 #'
 #' @details
@@ -54,7 +54,7 @@
 #' @usage data("amnesia_four_columns")
 #'
 #' @format
-#' \code{amnesia_four_columns} is a \code{data.frame} with 2.446 rows
+#' \code{amnesia_four_columns} is a \code{data.frame} with 2,446 rows
 #' representing drugs with the following four columns:
 #' \describe{
 #'   \item{AmnesiaCases.ThisDrug}{Number of the amnesia cases reported for the
