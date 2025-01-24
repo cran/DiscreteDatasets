@@ -1,3 +1,8 @@
+# DiscreteDatasets 0.1.2
+
+* Added Federalist dataset (contribution by Lukas Klein)
+
+
 # DiscreteDatasets 0.1.1
 
 * Documentation corrections, no code changes

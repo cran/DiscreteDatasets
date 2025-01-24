@@ -27,4 +27,9 @@ Authors:
   \item Sebastian Döhler
 }
 
+Other contributors:
+\itemize{
+  \item Lukas Klein [contributor]
+}
+
 }
